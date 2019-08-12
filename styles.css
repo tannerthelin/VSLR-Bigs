@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Light_3.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Medium_3.ttf") format("ttf");
+  font-weight: 500;
+}
+
+body {
+	background-color: #16191E;
+	color: white;
+	font-family: "IntCircularPro-Light_3", sans-serif;
+	margin: 0px;
+	paddding-bottom: 70px;
+}
+
+td {
+	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	border-top: 1px solid #5B5E61;
+}
+
+.headers {
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #787B7D;
+	font-size: 21px;
+	letter-spacing: 3px;
+}
+
+#table-content {
+	max-width: 918px; 
+	width: 100%; 
+	margin: auto;
+	padding-top: 200px;
+}
+
+.WC-column {
+	color: #787B7D;
+}
+
+.name-column {
+	width: 40%;
+	text-align: left;
+}
+
+.last {
+	text-align: right;
+}
+
+#page-title {
+	position: fixed;
+	background-color: #16191E;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 90px 0px;
+	margin: 0px;
+}
+
+a {
+	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	color: white;
+	display: block;	
+	-webkit-text-decoration-color: #B8B39D;
+  	text-decoration-color: #B8B39D;
+}
+
+.column-container {
+	margin-top: 0px;
+	display: flex;
+	padding: 0px 80px;
+	margin: auto;
+	justify-content: space-between;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
+}
+
+.title {
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	margin: 0px;
+}
+
+.column {
+	width: 33%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  body{
+  	padding: 0px 20px;
+  	padding-bottom: 120;
+  }
+
+  .headers {
+  	font-size: 12px;
+  }
+
+  #page-title {
+  	font-size: 16px;
+  	width: 100%;
+  	text-align: center;
+  	padding: 50px 0px 30px 0px;
+  }
+
+  #table-content {
+  	padding: 140px 0px;
+  }
+
+  td {
+	font-size: 20px;
+	padding: 12px 0px;
+}
+
+a {
+	font-size: 25px;
+}
+
+  .column {
+  	width: 100%;
+  }
+
+  .spacing {
+  	height: 100px;
+  }
+
+  .column-container {
+ 	padding: 0px;
+  }
+}
