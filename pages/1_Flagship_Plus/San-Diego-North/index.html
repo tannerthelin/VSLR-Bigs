@@ -4,7 +4,7 @@
 	<title>Lease Incentive - NorCal</title>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 	<script type='text/javascript'>    
-	  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1ldsBsWrNxPci8n-y2jTJ_65nyo8TJM7HAhjqmZm6hWQ/edit?usp=sharing';
+	  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1wbONXqwGphaZEjbOfMMDC67XDyYuwtHrk2XI2-DD5Yg/edit?usp=sharing';
 
 	  function init() {
 	    Tabletop.init( { key: publicSpreadsheetUrl,
@@ -21,15 +21,17 @@
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="index.js"></script>
-	<link rel="stylesheet" href="../../../styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../../styles/styles.css">
 </head>
 <body>
-	<div id="page-title">Loading...</div>
+	<div class="title" id="page-title">Loading...</div>
 	<table id="table-content" class="my-table">
 	  <tr class="headers">
-	    <th class="name-column">Name</th>
-	    <th class="WC-column needed">WC's Needed</th>
-	    <th class="WC-column last">Current WC's</th>
+	    <th class="number-column"></th>
+	    <th class="name-column"></th>
+	    <th class="comp-column needed">Comp</th>
+	    <th class="league-column last">League</th>
 	  </tr>
 	  <tbody id="table-body"></tbody>
 	</table>

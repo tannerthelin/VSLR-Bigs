@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("../fonts/IntCircularPro-Light_3.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("../fonts/IntCircularPro-Medium_3.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+	font-family: "Kairos Sans Variable";
+	src: url("../fonts/KairosSans_Variable.ttf") format("truetype");
+}

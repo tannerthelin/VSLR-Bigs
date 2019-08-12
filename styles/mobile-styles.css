@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px) {
+
+  body{
+  	padding: 0px 20px;
+  	padding-bottom: 120;
+  }
+
+  .headers {
+  	font-size: 12px;
+  }
+
+  #page-title {
+  	font-size: 16px;
+  	width: 100%;
+  	text-align: center;
+  	padding: 50px 0px 30px 0px;
+  }
+
+  td {
+	font-size: 20px;
+	padding: 12px 0px;
+}
+
+a {
+	font-size: 25px;
+}
+
+  .column {
+  	width: 100%;
+  }
+
+  .spacing {
+  	height: 100px;
+  }
+
+  .column-container {
+ 	padding: 0px;
+  }
+}

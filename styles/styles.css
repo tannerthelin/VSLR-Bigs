@@ -1,0 +1,18 @@
+@import "fonts.css";
+@import "menu-page.css";
+@import "basic-styles.css";
+
+@import "mobile-styles.css"
+
+td {
+	font-size: 31px;
+	padding: 20px 0px;
+	border-top: 1px solid #5B5E61;
+}
+
+#table-content {
+	max-width: 650px; 
+	width: 100%; 
+	margin: auto;
+	padding-top: 80px;
+}
