@@ -16,6 +16,7 @@ for (var i = 0; i < data.length; i++) {
 	var currentOffice = "CA-21 Riverside Solar";
 
 	document.getElementById("page-title").innerHTML = currentOffice;
+	document.title = "Bigs -" + currentOffice;
 
 
 	if (data[i].office == currentOffice) {
