@@ -8,7 +8,7 @@ simpleSheet: true } )
 
 function showInfo(data, tabletop) {
 console.log(data);
-
+var counter = 1;
 
 for (var i = 0; i < data.length; i++) {
 	
@@ -21,13 +21,14 @@ for (var i = 0; i < data.length; i++) {
 	if (data[i].office == currentOffice) {
 	$("#table-body").append(
 		'<tr class="border_bottom">' +
-		'<td class="number-column">' + (i+1) + '</td>' +
+		'<td class="number-column">' + counter + '</td>' +
 		'<td class="name-column">' + data[i].name + '</td>' +
 		//'<td class="office-column">' + data[i].office + '</td>' +
 		'<td class="comp-column needed">' + data[i].bigs_score + '</td>' +
 		'<td class="league-column last">' + data[i].league_score + '</td>' +
 		'</tr>'
 		);
+	counter = counter + 1;
 	}
 	
 }
