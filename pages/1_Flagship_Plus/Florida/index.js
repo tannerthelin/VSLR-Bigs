@@ -15,8 +15,8 @@ for (var i = 0; i < data.length; i++) {
 	// Change this variable to switch the office!
 	var currentOffice = "FL-02 West Orlando Solar";
 
-	document.getElementById("page-title").innerHTML = currentOffice;
-	document.title = "Bigs -" + currentOffice;
+	document.getElementById("page-title").innerHTML = "Florida";
+	document.title = "Bigs - Florida";
 
 
 	if (data[i].office == currentOffice) {
