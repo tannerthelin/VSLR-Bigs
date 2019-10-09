@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bigs - Loading...</title>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+	<script type='text/javascript'>    
+	  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1dE8P7X_U6EQ6tY2X7mqky9VRlztwZWqGZCnpPyQ4rzI/edit?usp=sharing';
+
+	  function init() {
+	    Tabletop.init( { key: publicSpreadsheetUrl,
+	                     callback: showInfo,
+	                     simpleSheet: true } )
+	  }
+
+	  function showInfo(data, tabletop) {
+	    alert('Successfully processed!')
+	    console.log(data);
+	  }
+
+	  window.addEventListener('DOMContentLoaded', init)
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../styles/styles.css">
+</head>
+<body>
+	<div class="title" id="page-title">Loading...</div>
+	<table id="table-content" class="my-table">
+	  <tr class="headers">
+	    <th class="number-column"></th>
+	    <th class="name-column">Dealer Nickname</th>
+	    <th class="league-column last">Score</th>
+	  </tr>
+	  <tbody id="table-body"></tbody>
+	</table>
+
+</body>
+</html>
