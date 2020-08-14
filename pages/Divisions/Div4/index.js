@@ -13,7 +13,7 @@ function init() {
 	for (var i = 0; i < data.length; i++) {
 		
 		// Change this variable to switch the office!
-		var currentOffice = "division 4";
+		var currentOffice = "D4";
 	
 		document.getElementById("page-title").innerHTML = currentOffice;
 		document.title = "Bigs -" + currentOffice;
